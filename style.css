@@ -1,19 +1,20 @@
 /* General site styles */
 body {
   font-family: "Times New Roman", Calibri, sans-serif;
-  margin: 20px;
-  padding:20px;
+  margin: 20px auto;
+  padding: 20px;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
   max-width: 1500px;
+  box-sizing: border-box;
 }
 
 /* Homepage & site header */
 header {
   text-align: center;
   padding: 40px;
-  background-color: #2a9d8f; /* teal */
+  background-color: #2a9d8f; 
   color: white;
 }
 header img {
@@ -34,7 +35,7 @@ header p {
 
 /* Navigation bar */
 nav {
-  background: #264653; /* dark navy */
+  background: #264653; 
   padding: 15px;
   text-align: center;
 }
@@ -63,20 +64,29 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Article header block */
-  .header {
+/* Responsive Article header block */
+.header {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   padding: 20px;
   background-color: #2a9d8f;
   color: white;
+  border-radius: 8px 8px 0 0;
+  gap: 15px;
 }
 .author-photo img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-right: 15px;
   border: 3px solid white;
+  display: block;
+}
+.author-info {
+  flex: 1;
+  min-width: 250px;
 }
 .author-info h1 {
   margin: 0;
@@ -88,7 +98,6 @@ h2 {
   font-size: 14px;
   color: #e0f7fa;
 }
- 
 
 /* Footer */
 footer {
@@ -102,24 +111,21 @@ footer {
 
 /* Comments Section */
 #comments {
-  background-color: #f0f0f0;   /* light gray background */
+  background-color: #f0f0f0;   
   padding: 20px;
   border-radius: 8px;
   margin: 40px auto;
   max-width: 900px;
 }
-
 #comments h2 {
-  color: #264653;              /* dark navy heading */
+  color: #264653;              
   margin-bottom: 15px;
 }
-
 #comments form {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
 #comments input,
 #comments textarea {
   padding: 10px;
@@ -127,9 +133,8 @@ footer {
   border-radius: 4px;
   font-family: inherit;
 }
-
 #comments button {
-  background-color: #2a9d8f;   /* teal button */
+  background-color: #2a9d8f;   
   color: white;
   border: none;
   padding: 10px;
@@ -137,26 +142,22 @@ footer {
   cursor: pointer;
   font-weight: bold;
 }
-
 #comments button:hover {
-  background-color: #005f99;   /* darker teal on hover */
+  background-color: #005f99;   
 }
-
 #comments h3 {
   margin-top: 30px;
   color: #333;
 }
-
 #comments ul {
   list-style-type: none;
   padding: 0;
 }
 
-
- /* Page container for articles */
+/* Page container for articles */
 .page-container {
-  max-width: 900px;   /* controls overall width */
-  margin: 0 auto;     /* centers the page horizontally */
+  max-width: 900px;   
+  margin: 0 auto;     
   padding: 20px;
 }
 
@@ -169,27 +170,19 @@ footer {
   padding: 20px;
 }
 
-
-
 .site-tagline {
-      text-align: center;
-      color: #555;
-      font-size: 14px;
-      margin-bottom: 30px;
-    }
-body {
-  max-width: 1500px;
-  margin: 20px auto; 
-  padding: 20px;
-  box-sizing: border-box;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 30px;
 }
 
+/* Core Responsive Framework for Images & Theme Elements */
 .theme-image, .content img, section img {
   max-width: 100%;
   height: auto;
   overflow: hidden;
 }
-
 .theme-image img {
   width: 100%;
   max-width: 100%;
@@ -198,4 +191,21 @@ body {
   margin: 0 auto;
   object-fit: cover;
   border-radius: 8px; 
+}
+figcaption {
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+  margin-top: 8px;
+}
+
+/* Mobile Layout Switches */
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .author-photo img {
+    margin-right: 0;
+  }
 }
