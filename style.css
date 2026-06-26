@@ -64,7 +64,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* YOUR ORIGINAL DESKTOP HEADER BLOCK (RESTORED EXACTLY) */
+/* YOUR ORIGINAL HEADER BLOCK (FIXED FOR AUTHOR ENHANCEMENT) */
 .header {
   display: flex;
   align-items: center;
@@ -72,13 +72,18 @@ h2 {
   background-color: #2a9d8f;
   color: white;
 }
+
+/* Protects your profile photo from stretching */
 .author-photo img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
   margin-right: 15px;
   border: 3px solid white;
+  display: block;
+  object-fit: cover;
 }
+
 .author-info h1 {
   margin: 0;
   font-size: 24px;
@@ -88,6 +93,11 @@ h2 {
   margin: 5px 0 0;
   font-size: 14px;
   color: #e0f7fa;
+}
+.author-link {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* Footer */
@@ -161,18 +171,12 @@ footer {
   padding: 20px;
 }
 
-.site-tagline {
-  text-align: center;
-  color: #555;
-  font-size: 14px;
-  margin-bottom: 30px;
-}
-
-/* Core Responsive Framework for Images */
-.theme-image, .content img, section img {
+/* RESPONSIVE ARTICLE MAIN THEME IMAGES ONLY */
+.theme-image {
   max-width: 100%;
   height: auto;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .theme-image img {
   width: 100%;
@@ -183,6 +187,13 @@ footer {
   object-fit: cover;
   border-radius: 8px; 
 }
+
+/* General article content images fallback */
+.content img:not(.author-photo img) {
+  max-width: 100%;
+  height: auto;
+}
+
 figcaption {
   text-align: center;
   font-size: 15px;
@@ -190,7 +201,14 @@ figcaption {
   margin-top: 8px;
 }
 
-/* SAFE MOBILE-ONLY ISOLATION ZONE */
+.site-tagline {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* MOBILE ISOLATION DESIGN */
 @media (max-width: 600px) {
   .header {
     flex-direction: column;
@@ -199,6 +217,6 @@ figcaption {
   }
   .author-photo img {
     margin-right: 0 !important;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
