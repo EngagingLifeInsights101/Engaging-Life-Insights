@@ -2,115 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>The Future of Technology and Why We Need to Adapt</title>
-  <style>
-    body {
-      font-family: Times New Roman, Arial, sans-serif;
-      margin: 150px;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    nav {
-      margin-bottom: 20px;
-    }
-    nav a {
-      text-decoration: none;
-      color: #007acc;
-      font-weight: bold;
-    }
-    .header {
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-    .author-photo img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      margin-right: 15px;
-    }
-    .author-info h1 {
-      margin: 0;
-      font-size: 24px;
-    }
-    .author-info p {
-      margin: 5px 0 0;
-      font-size: 14px;
-      color: #555;
-    }
-    .author-link {
-      color: #007acc;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .theme-image img {
-      width: 100%;
-      max-height: 400px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin: 20px 0;
-      display: block; 
-    }
-    .content {
-      margin-top: 20px;
-    }
-    .back-to-top {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 6px 12px;
-      background: #007acc;
-      color: white;
-      border-radius: 4px;
-      text-decoration: none;
-      font-size: 15px;
-    }
-    .back-to-top:hover {
-      background: #005f99;
-    }
-    footer {
-      margin-top: 40px;
-      font-size: 15px;
-      color: #777;
-      text-align: center;
-    }
-    form {
-      max-width: 600px;
-      margin-top: 20px;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    button {
-      background: #007acc;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #005f99;
-    }
-    #commentsList {
-      margin-top: 20px;
-      list-style: none;
-      padding: 0;
-    }
-    #commentsList li {
-      background: #fff;
-      border: 1px solid #ddd;
-      padding: 10px;
-      margin-bottom: 10px;
-      border-radius: 4px;
-    }
-  </style>
+  <title>Engaging Life Insights | The Future of Technology and Why We Need to Adapt</title>
+  <link rel="stylesheet" href= "style.css">  
 </head>
 <body id="top">
+    <!-- Site Header-->
+  <header>
+    <h1> Engaging Life Insights</h1>
+    <p>Exploring Ideas, Essays, and Reflections</p>
+    <nav> <a href= "index2.html">Explore</a></nav>
+  </header>
 
   <!-- Header with photo + byline -->
   <div class="header">
@@ -122,15 +23,15 @@
       <p>
         Written by 
         <a href="index.html" class="author-link">John Momanyi Omeka</a> · Writer · Researcher · Technology Enthusiast · Thinker
-         <br> Published: December 26, 2025
+         <br> Published: January 11, 2026
       </p>
     </div>
   </div>
 
   <!-- Theme image below header -->
   <div class="theme-image">
-    <img src="technology.jpg" alt="Technology Theme">
-    <figcaption style="font-size:12px; color:grey;">
+    <img src="technology.jpg" alt="Technology Theme" width="1440px" height="400">
+    <figcaption style="font-size:20px; color:grey;">
     Source: <a href="https://pngtree.com/free-backgrounds-photos/ai-generted-pictures/2" target="_blank" rel="noopener">pngtree.com</a>
   </figcaption>
   </div>
@@ -170,7 +71,7 @@ report </a> on the state of AI in 2025, showed that 88% of respondents confirmed
      In healthcare, AI has changed the way people interact with healthcare providers. Through telemedicine, AI improves diagnostics, real-time monitoring and engagement with patients who live in remote areas. The fact that people do not have to travel long distances to meet healthcare providers is laudable because it boosts efficiency and accessibility of healthcare services for all individuals irrespective of their geographical location. Integrating AI into healthcare bridges the gap in the medical workforce crisis. The following diagram shows more AI benefits: 
     <figure>
   <img src="AI.jpg" alt="AI Benefits" style="width:300px; border-radius:6px;">
-  <figcaption style="font-size:12px; color:#555;">
+  <figcaption style="font-size:20px; color:#555;">
     Source: <a href="https://www.sciencedirect.com/science/article/pii/S2949866X24001230?__cf_chl_tk=kkUp7RGSyR0o6fbzCh3zbNCyxyoZKK4dej3aBCUXTZo-1766752624-1.0.1.1-ptJt693obMURh1beQDUEdAXco0ri8mWWlizcK7v_rog" target="_blank" rel="noopener">Science Direct</a>
   </figcaption>
 </figure>
@@ -194,26 +95,29 @@ report </a> on the state of AI in 2025, showed that 88% of respondents confirmed
       <a href="#top" class="back-to-top">Back to Top ↑</a>
     </p>
   </div>
-   <section>
-    <h2>Leave a Comment</h2>
-    <form id="commentForm" action="https://formspree.io/f/xlgrkdrz" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="_replyto" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Comment" rows="5" required></textarea>
-      <button type="submit">Submit Comment</button>
-    </form>
+   
+  <!-- Comments Section -->
+<section id="comments">
+  <h2>Leave a Comment</h2>
+  <form id="commentForm" action="https://formspree.io/f/xlgrkdrz" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="_replyto" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Comment" rows="5" required></textarea>
+    <button type="submit">Submit Comment</button>
+  </form>
 
-    <h3>Recent Comments</h3>
-    <ul id="commentsList"></ul>
+  <h3>Recent Comments</h3>
+  <ul id="commentsList"></ul>
 
-    <noscript>
-      Comments could not be submitted. Please enable JavaScript or 
-      <a href="mailto:babegalo560@gmail.com">email me your feedback</a>.
-    </noscript>
-  </section>
+  <noscript>
+    Comments could not be submitted. Please enable JavaScript or 
+    <a href="mailto:babegalo560@gmail.com">email me your feedback</a>.
+  </noscript>
+</section> 
+
 
   <footer>
-    © 2025 John Momanyi Omeka · All Rights Reserved
+    © 2026 Engaging Life Insights · All Rights Reserved
   </footer>
 
   <script>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Engaging Life Insights | Home</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Calibri, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 40px;
+      background-color: #2a9d8f; /* teal background */
+      color: white;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+    }
+    header h1 {
+      margin-top: 15px;
+      font-size: 36px;
+    }
+    header p {
+      font-style: italic;
+      margin-top: 10px;
+      color: #e0f7fa;
+    }
+    nav {
+      background: #264653; /* dark navy */
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #2a9d8f;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #2a9d8f;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2a9d8f;
+      color: white;
+      margin-top: 40px;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Site Header -->
+  <header>
+    <img src="myphoto.jpg" alt="My Photo">
+    <h1>Engaging Life Insights</h1>
+    <p>Exploring ideas, trends, and reflections</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <!-- Add more links if you create extra pages -->
+  </nav>
+
+  <!-- Site Description -->
+  <section>
+    <h2>About Engaging Life Insights</h2>
+    <p>
+      Engaging Life Insights is a platform dedicated to exploring ideas, trends, and reflections that shape our everyday lives. 
+      Through essays and commentaries, the site examines relationships, society, technology, and culture with depth and clarity.
+    </p>
+    <p>
+      Founded and authored by <strong>John Momanyi Omeka</strong>, the site seeks to spark meaningful conversations and inspire readers to think critically about the world around them.
+    </p>
+  </section>
+
+  <!-- Author Bio -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a writer and researcher passionate about health science, technology, data science and sociology. 
+      This site showcases my essays, projects, and commentaries about contemporary issues in society. 
+      Feel free to explore and learn more about me.
+    </p>
+    <p>
+      <strong>Email:</strong> <a href="mailto:babegalo560@gmail.com">babegalo560@gmail.com</a><br>
+      <strong>Telephone:</strong> +254 718889937
+    </p>
+  </section>
+
+  <!-- Works -->
+  <section>
+    <h2>My Works</h2>
+    <ul>
+      <li><a href="The Future of Technology and Why We Need to Adapt.html">The Future of Technology and Why We Need to Adapt</a></li>
+      <li><a href="innovation and society.html">Innovation and Society</a></li>
+      <li><a href="when love becomes addiction.html">When Love Becomes Addiction</a></li>
+      <li><a href="why youths and young adults are finding it difficult to sustain romantic relationships.html">Why Youths and Young Adults are Finding it Difficult to Sustain Romantic Relationships</a></li>
+      <li><a href="Invisible divorce an emerging trend in society.html">Invisible Divorce: An Emerging Trend in Society</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 Engaging Life Insights · All Rights Reserved
+  </footer>
+</body>
+</html>

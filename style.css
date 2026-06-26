@@ -1,0 +1,178 @@
+/* General site styles */
+body {
+  font-family: "Times New Roman", Calibri, sans-serif;
+  margin: 20px;
+  padding:20px;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1500px;
+}
+
+/* Homepage & site header */
+header {
+  text-align: center;
+  padding: 40px;
+  background-color: #2a9d8f; /* teal */
+  color: white;
+}
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+header h1 {
+  margin-top: 15px;
+  font-size: 36px;
+}
+header p {
+  font-style: italic;
+  margin-top: 10px;
+  color: #e0f7fa;
+}
+
+/* Navigation bar */
+nav {
+  background: #264653; /* dark navy */
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2 {
+  border-bottom: 2px solid #2a9d8f;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Article header block */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #2a9d8f;
+  color: white;
+}
+.author-photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 3px solid white;
+}
+.author-info h1 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+.author-info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #e0f7fa;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2a9d8f;
+  color: white;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+/* Comments Section */
+#comments {
+  background-color: #f0f0f0;   /* light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+#comments h2 {
+  color: #264653;              /* dark navy heading */
+  margin-bottom: 15px;
+}
+
+#comments form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#comments input,
+#comments textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+#comments button {
+  background-color: #2a9d8f;   /* teal button */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#comments button:hover {
+  background-color: #005f99;   /* darker teal on hover */
+}
+
+#comments h3 {
+  margin-top: 30px;
+  color: #333;
+}
+
+#comments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+ /* Page container for articles */
+.page-container {
+  max-width: 900px;   /* controls overall width */
+  margin: 0 auto;     /* centers the page horizontally */
+  padding: 20px;
+}
+
+/* Content and comments styled as cards */
+.content, #comments {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+
+
+.site-tagline {
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
