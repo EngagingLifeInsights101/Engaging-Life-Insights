@@ -176,3 +176,25 @@ footer {
       font-size: 14px;
       margin-bottom: 30px;
     }
+body {
+  max-width: 1500px;
+  margin: 20px auto; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.theme-image, .content img, section img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.theme-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto !important; 
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 8px; 
+}
