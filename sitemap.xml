@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>http://engaginglifeinsights.com/about</loc>
-</url>
-<url>
-  <loc>http://engaginglifeinsights.com/invisible-divorce</loc>
-</url>
-<url>
-  <loc>http://engaginglifeinsights.com/future-of-technology</loc>
-</url>
-<url>
-  <loc>http://engaginglifeinsights.com/love-and-obsession</loc>
-</url>
-<url>
-  <loc>http://engaginglifeinsights.com/innovation-and-society</loc>
-</url>
-<url>
-  <loc>http://engaginglifeinsights.com/youths-romantic-relationships</loc>
-</url>
-<url>
-  <loc>http://engaginglifeinsights.com/financial-infidelity</loc>
-</url>
-<url>
-  <loc>http://engaginglifeinsights.com/index</loc>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://engaginglifeinsights.com</loc>
+  </url>
+  <url>
+    <loc>https://engaginglifeinsights.comabout</loc>
+  </url>
+  <url>
+    <loc>https://engaginglifeinsights.cominvisible-divorce</loc>
+  </url>
+  <url>
+    <loc>https://engaginglifeinsights.comfuture-of-technology</loc>
+  </url>
+  <url>
+    <loc>https://engaginglifeinsights.comlove-and-obsession</loc>
+  </url>
+  <url>
+    <loc>https://engaginglifeinsights.cominnovation-and-society</loc>
+  </url>
+  <url>
+    <loc>https://engaginglifeinsights.comyouths-romantic-relationships</loc>
+  </url>
+  <url>
+    <loc>https://engaginglifeinsights.comfinancial-infidelity</loc>
+  </url>
 </urlset>
